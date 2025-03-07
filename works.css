@@ -1,0 +1,174 @@
+/* ALL PAGE CONFIGURATION */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+.body {
+    font-family: "Heebo", sans-serif;
+  }
+
+
+/* HEADER */
+.header{
+    margin-top: 20px;
+    font-family: "Heebo", sans-serif;
+    font-weight: medium;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+@media (max-width: 768px) {
+    .header nav{
+        display: none;
+    }
+}
+
+.header a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.header .select{
+    color: #FF6464;
+}
+
+.header .mobile-header{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header .mobile-header{
+        display: block;
+        font-size: 1.5rem;
+    }
+}
+
+/* MAIN */
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2rem;
+        max-width: none;
+    }
+}
+
+.main-container-title{
+    max-width: 70%;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #21243D;
+}
+
+@media (max-width: 768px) {
+    .main-container-title{
+        font-size: 2rem;
+        max-width: 100%;
+
+    }
+    
+}
+
+.main-container-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .main-container-content{
+        margin-top: 20px;
+    }
+}
+
+.main-container-content h2{
+    color: #21243D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-container-content span{
+    background-color: #FF6464;
+    padding: 5px 12px;
+    border-radius: 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+}   
+
+.main-container-paragraph{
+    width: 100%;
+    margin-top: 20px;
+    color: black    ;
+}
+
+.main-container-first-img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-container-second-section h2{
+    color: #21243D;
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.main-container-second-section h3{
+    color: #21243D;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-container-second-section p{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-container-second-section img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+}   
+
+.footer-images{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer p{
+    color: #21243D;
+    margin-top: 20px;
+}
