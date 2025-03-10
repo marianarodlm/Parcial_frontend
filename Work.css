@@ -88,6 +88,9 @@ h3{
 }
 
 @media (max-width: 600px) {
+    .div-main {
+        padding: 30px 20px;
+    }
     .div-f-works {
         gap: 10px; 
     }
