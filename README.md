@@ -1,6 +1,6 @@
 # Parcial Frontend
 
-> **Realizado por:** Brayan Gutierrez, Sergio Rodriguez y Mariana Guerrero
+> **Realizado por:** Brayan Gutierrez, Sergio Rodriguez y Mariana Rodriguez
 
 ---
 
@@ -32,5 +32,5 @@ Este proyecto es parte de una evaluación parcial que pone en práctica habilida
 
 - **Brayan Gutierrez**
 - **Sergio Rodriguez**
-- **Mariana Guerrero**
+- **Mariana Rodriguez**
 
