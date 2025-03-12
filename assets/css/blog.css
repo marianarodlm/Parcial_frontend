@@ -9,30 +9,46 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
-.navbar {
+.header{
+    margin-top: 20px;
+    font-family: "Heebo", sans-serif;
+    font-weight: medium;
+    width: 95%;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    padding: 20px;
 }
 
-.navbar ul {
-    list-style: none;
+.header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
 }
 
-.navbar ul li {
-    display: inline;
-    margin-left: 20px;
+@media (max-width: 768px) {
+    .header nav{
+        display: none;
+    }
 }
 
-.navbar ul li a {
+.header a{
+    font-weight: 600;
     text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
+    color: #000;
+}
+.header .select{
+    color: #FF6464;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.active {
-    color: #ff6b6b;
+.header .mobile-header{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header .mobile-header{
+        display: block;
+        font-size: 1.5rem;
+    }
 }
 
 .content {
